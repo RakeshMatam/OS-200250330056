@@ -57,7 +57,7 @@ Tools used : Git , Visual Studio Code
 12. rm -rf filename.c -> deletes the file in a directory 
 13. make -> utility for efficient build process through Makefiles
 14. git add file or Foldername 
-15. git add . -> for adding the modified files 
+15. git add . -> for adding the modified files  
 -------------------------------------------------------------------------------------------------------
 * Program : 
     * Dormant executable file or passive entity 
