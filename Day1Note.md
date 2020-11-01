@@ -51,13 +51,17 @@ Tools used : Git , Visual Studio Code
     * Reason : During the Run time Execution we can pedict the Size of heap as dynamic memory allocation happens 
 8. git status :
      gives the status which are to be commited 
-9. git add * 
-10. git commit -m "message"
-11. git log 
-12. rm -rf filename.c -> deletes the file in a directory 
-13. make -> utility for efficient build process through Makefiles
-14. git add file or Foldername 
-15. git add . -> for adding the modified files  
+9. git add * // git add ..
+10. git add file or Foldername 
+11. git add . -> for adding the modified files
+12. git commit -m "message"
+13. git log 
+14. git branch -M main
+15. git remote add origin https://github.com/RakeshMatam/OS-200250330056.git
+16. git push -u origin main
+    * Enter the Username and password of your git remote repo
+17. rm -rf filename.c -> deletes the file in a directory 
+18. make -> utility for efficient build process through Makefiles
 -------------------------------------------------------------------------------------------------------
 * Program : 
     * Dormant executable file or passive entity 
