@@ -44,6 +44,10 @@ Day 2:
         * 1. ar x (extract)
         * 2. ar crv libname.a 1.o 2.o ....n.o => (*.o)(Creating and adding) 
     * Dynamic Library :
+        * gcc -o libname.so file1.o file2.o -shared -fPIC
+        * gcc -o main main.c -larith -L.
+        * export LD_LIBRARY_PATH =. ---> should give a library path
+        * ldd main 
   -----------------------------------------------------------------------------------------------------   
     * cd /usr/
     * ls
