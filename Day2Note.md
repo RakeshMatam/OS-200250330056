@@ -42,12 +42,18 @@ Day 2:
         * Dynamic (also called as Shared Objects) => (*.so )-> extension for Dynamic libraries
     * Static Library :
         * 1. ar x (extract)
-        * 2. ar crv libname.a 1.o 2.o ....n.o => (*.o)(Creating and adding) 
+        * 2. ar crv libname.a 1.o 2.o ....n.o => (*.o)(Creating and adding)
+        * 3. lib function definitoin embedded in binary
+        * 4. multiple copies of library function loaded in the memory
+        * 5. more memory 
     * Dynamic Library :
-        * gcc -o libname.so file1.o file2.o -shared -fPIC
-        * gcc -o main main.c -larith -L.
-        * export LD_LIBRARY_PATH =. ---> should give a library path
-        * ldd main 
+        * 1. gcc -o libname.so file1.o file2.o -shared -fPIC
+        * 2. gcc -o main main.c -larith -L.
+        * 3. export LD_LIBRARY_PATH =. ---> should give a library path
+        * 4. ldd main
+        * 5. lib function deference definitoin embedded in binary
+        * 6. single copy of library function loaded in the memory
+        * 7. less memory
   -----------------------------------------------------------------------------------------------------   
     * cd /usr/
     * ls
