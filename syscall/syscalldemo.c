@@ -8,6 +8,8 @@ int main(int argc, char const *argv[])
 {
     int fd ;
     fd = open("os.txt",O_WRONLY | O_CREAT);
+
+    printf(" fd = %d",fd);
     if (fd == -1){
         perror("Error in Open \n");
         return -1;

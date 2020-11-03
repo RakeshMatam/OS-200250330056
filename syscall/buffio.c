@@ -6,9 +6,8 @@
 
 int main(int argc, char const *argv[])
 {
-    printf("Hello\n");
-    printf("World\n");
-    return 0;
+    printf("Hello");
+    
 }
 
 // when no "\n" given the system called write function only once as per the above code
