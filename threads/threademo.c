@@ -15,9 +15,9 @@ int main(int argc, char const *argv[])
     pthread_t tid; // opaque data type
     printf("Before thread Creation\n");
     pthread_create(&tid,NULL,thread,NULL);
-    printf("After Thread Creation\n");
+    /*printf("After Thread Creation\n");
     sleep(1);
-    printf("After Sleep Creation\n");
+    printf("After Sleep Creation\n");*/
     
     return 0;
 }   

@@ -17,3 +17,14 @@ Day 8 :
 * void *(*sub_routine) (void *) -> A pointer to a function and this function takes the arguments as (void*) and returns as void*.
 * if its void that means we can pass any type of Datatype.
 * Compile and link with -lpthread (eg : gcc -o file filename -lpthread)
+---------------------------------------------------------------------------------------------------------
+* Threads
+    * POSIX
+    * Library pthread
+    * pthread_t
+    * pthread_attr_t -> Attributes
+        * Joinable - detachable
+        * Scheduling policy
+        * priority
+    * Each thread has its own stack
+    * Threads share -> .text, .data, .bss, heap
