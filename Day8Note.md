@@ -27,4 +27,7 @@ Day 8 :
         * Scheduling policy
         * priority
     * Each thread has its own stack
-    * Threads share -> .text, .data, .bss, heap
+    * Threads share -> .text, .data, .bss, heap except the Stack
+----------------------------------------------------------------------------------------------------------
+* Race Condition
+* Shared Resources -> The Resources are shared between multiple processes /threads 
