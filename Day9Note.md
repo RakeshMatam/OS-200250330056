@@ -66,4 +66,20 @@ eg : Hadware Serial port,Variable or Memory location
 * Mutex vs Semaphores :
     * Mutex's can be used only in threads.
     * Semaphores can be used among threads as well as processes.
+----------------------------------------------------------------------------------------------------------
+* Mutual Exclusion (pthread_mutex_t)
+    * Mutex
+        * Futex
+        * Recursive Mutex
+        * Adaptive Mutex
+        * Error Checking Mutex (Assignment)
+
+* Semaphore (sem_t)
+    * Binary
+        * Mutual Exclusion -> initial value -> 1
+        * Signalling -> initial value -> 0/1
+    * Counting
+        * initial -> N
+----------------------------------------------------------------------------------------------------------
+
 
