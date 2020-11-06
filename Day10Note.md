@@ -20,3 +20,9 @@ Day 10:
 * Zombie Processes :
     * This Zombie State exists when the Child Exits before the parent calls wait 
 * Zombie Processes and Inherited childs (Orphan processes)
+* Linux process States 
+    * Uninterruptable Sleep(D)
+    * Interruptable Sleep(S)
+    * Running/Runnable(R)
+    * Stopped(T)
+    * Zombie(Z  )
